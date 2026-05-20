@@ -1,0 +1,821 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>William Stanley Jevons | Economist, Logician &amp; Pioneer of Marginal Utility</title>
+  <meta name="description" content="William Stanley Jevons FRS (1835–1882) was an English economist and logician who pioneered marginal utility theory, the Jevons paradox, and the Logic Piano. Discover his life, works, and lasting influence on economics and logic.">
+  <meta name="keywords" content="William Stanley Jevons, Jevons paradox, marginal utility, theory of political economy, logic piano, coal question, sunspot theory, economics, logic, neoclassical economics">
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="William Stanley Jevons">
+  <link rel="canonical" href="https://jevons.com/">
+  <link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAYAAABV7bNHAAAAAXNSR0IArs4c6QAAAARzklUCAgICHwIZIgAAAeFJREFUeJzt2zFKA0EYhuFfiq0gtrewsPMKnsAbeA5P4Ak8gRfwAt7AwspCbC1sBcFCsEh8hRkmLssmm2Rm8/0gJZBt5p8hLGx2N8YYY4wxxvzYcZQOn1uAFFCABEiABEiABEhAAQqQAAmQAAmQAAUoQAIkQAIkQAIUoAAJkAAJkAAJUIACJEACJEACFKDA5xf4+gE+XoG3F+BrWvPjFfh4WbY7GY7j9gb4GrafPx4LN/083H4B3/bnuHiYh7r9BKgKmn+et7sJUBV0Nm+3UaAqaP9rjCtpCjSF/f/fX4EGwv1CNAUaCPcL0RRoINwvRFOggXC/EE2BBsL9QjQFGgj3C9EUaCDcL0RToIFwvxBNgQbC/UI0BRoI9wvRFGgg3C9EU6CBcL8QTYEGwv1CNAUaCPcL0RRoINwvRFOggXC/EE2BBsL9QjQFGgj3C9EUaCDcL0RToIFwvxBNgQbC/UI0BRoI9wvRFGgg3C9EU6CBcL8QTYEGwv1CNAUaCPcL0RRoINwvRFOggXC/EE2BBsL9QjQFGgj3C9EUaCDcL0RToIFwvxBNgQbC/UI0BRoI9wvRFGgg3C9EU6CBcL8QTYEGwv1CNAUaCPcL0RRoINwvRFOggXC/EE2BBsL9QjQFGgj3C9EUaCDcL0RToIFwvxBtzvMXNjAP15Fz42UAAAAASUVORK5CYII=">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --ink: #f5f5f5;
+      --dark: #050505;
+      --panel: #0a0a0a;
+      --blue: #3b82f6;
+      --cyan: #22d3ee;
+      --violet: #8b5cf6;
+      --amber: #f59e0b;
+      --green: #22c55e;
+      --gray: #6b7280;
+      --muted: #888888;
+      --border: rgba(255,255,255,0.06);
+    }
+
+    html {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, system-ui, sans-serif;
+      background: var(--dark);
+      color: var(--ink);
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    body {
+      min-height: 100vh;
+    }
+
+    /* Navigation */
+    nav {
+      display: flex;
+      align-items: center;
+      gap: 24px;
+      padding: 10px 28px;
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      background: rgba(5,5,5,0.85);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      z-index: 50;
+    }
+
+    nav .brand {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      text-decoration: none;
+      color: var(--ink);
+      font-weight: 700;
+      font-size: 15px;
+      letter-spacing: -0.01em;
+    }
+
+    nav .brand canvas {
+      width: 22px;
+      height: 22px;
+      display: block;
+    }
+
+    nav .nav-links {
+      display: flex;
+      gap: 20px;
+      margin-left: auto;
+      list-style: none;
+    }
+
+    nav .nav-links a {
+      color: var(--muted);
+      text-decoration: none;
+      font-size: 13px;
+      font-weight: 500;
+      transition: color 0.2s;
+    }
+
+    nav .nav-links a:hover { color: var(--ink); }
+
+    /* Hero Section */
+    .hero {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding: 100px 24px 60px;
+      max-width: 820px;
+      margin: 0 auto;
+    }
+
+    .hero .logo-area {
+      margin-bottom: 32px;
+    }
+
+    .hero .logo-area canvas {
+      width: 96px;
+      height: 96px;
+      display: block;
+    }
+
+    .hero h1 {
+      font-size: clamp(2.5rem, 5vw, 3.8rem);
+      font-weight: 800;
+      letter-spacing: -0.03em;
+      line-height: 1.1;
+      margin-bottom: 20px;
+    }
+
+    .hero h1 span {
+      background: linear-gradient(135deg, var(--blue), var(--cyan));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .hero p {
+      font-size: 18px;
+      color: var(--muted);
+      max-width: 640px;
+      margin-bottom: 36px;
+      line-height: 1.7;
+    }
+
+    .hero-actions {
+      display: flex;
+      gap: 14px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 12px 28px;
+      border-radius: 10px;
+      font-size: 15px;
+      font-weight: 600;
+      text-decoration: none;
+      transition: all 0.2s;
+      cursor: pointer;
+      border: none;
+    }
+
+    .btn-primary {
+      background: linear-gradient(135deg, var(--blue), var(--cyan));
+      color: #000;
+    }
+
+    .btn-primary:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 8px 30px rgba(59, 130, 246, 0.3);
+    }
+
+    .btn-secondary {
+      background: var(--panel);
+      color: var(--ink);
+      border: 1px solid var(--border);
+    }
+
+    .btn-secondary:hover {
+      background: #1a1a1a;
+      border-color: rgba(255,255,255,0.12);
+    }
+
+    /* Creator Tag */
+    .creator-tag {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      margin-bottom: 32px;
+      font-size: 13px;
+      color: var(--muted);
+    }
+
+    .creator-tag .tag-badge {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      padding: 4px 12px;
+      border-radius: 6px;
+      font-weight: 600;
+      color: var(--ink);
+      font-size: 12px;
+    }
+
+    /* Section */
+    .section {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 70px 24px;
+    }
+
+    .section-label {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 12px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--blue);
+      margin-bottom: 16px;
+    }
+
+    .section h2 {
+      font-size: clamp(1.8rem, 3.5vw, 2.6rem);
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      margin-bottom: 16px;
+    }
+
+    .section > .subtitle {
+      color: var(--muted);
+      font-size: 16px;
+      max-width: 640px;
+      line-height: 1.7;
+    }
+
+    /* Feature Grid */
+    .feature-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+      margin-top: 40px;
+    }
+
+    .feature-card {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 28px;
+      transition: border-color 0.2s;
+    }
+
+    .feature-card:hover {
+      border-color: rgba(255,255,255,0.1);
+    }
+
+    .feature-card .icon {
+      font-size: 28px;
+      margin-bottom: 14px;
+      display: block;
+    }
+
+    .feature-card h3 {
+      font-size: 17px;
+      font-weight: 600;
+      margin-bottom: 8px;
+    }
+
+    .feature-card p {
+      font-size: 14px;
+      color: var(--muted);
+      line-height: 1.7;
+    }
+
+    /* Steps */
+    .steps {
+      margin-top: 48px;
+      display: flex;
+      flex-direction: column;
+      gap: 32px;
+    }
+
+    .step {
+      display: flex;
+      gap: 20px;
+      align-items: flex-start;
+    }
+
+    .step-number {
+      flex-shrink: 0;
+      width: 36px;
+      height: 36px;
+      border-radius: 10px;
+      background: var(--panel);
+      border: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 13px;
+      font-weight: 700;
+      color: var(--blue);
+    }
+
+    .step-content h3 {
+      font-size: 16px;
+      font-weight: 600;
+      margin-bottom: 4px;
+    }
+
+    .step-content p {
+      font-size: 14px;
+      color: var(--muted);
+      line-height: 1.7;
+    }
+
+    /* Quotes / Deep dive */
+    .deep-dive {
+      margin-top: 40px;
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 32px;
+    }
+
+    .deep-dive h3 {
+      font-size: 18px;
+      font-weight: 600;
+      margin-bottom: 12px;
+    }
+
+    .deep-dive p {
+      font-size: 14px;
+      color: var(--muted);
+      line-height: 1.8;
+    }
+
+    .deep-dive .read-more {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      margin-top: 16px;
+      color: var(--cyan);
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 500;
+      transition: opacity 0.2s;
+    }
+
+    .deep-dive .read-more:hover { opacity: 0.8; }
+
+    /* FAQ */
+    .faq-list {
+      margin-top: 40px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .faq-item {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 20px 24px;
+    }
+
+    .faq-item h3 {
+      font-size: 15px;
+      font-weight: 600;
+      margin-bottom: 4px;
+    }
+
+    .faq-item p {
+      font-size: 14px;
+      color: var(--muted);
+      line-height: 1.7;
+    }
+
+    /* Sources */
+    .sources {
+      margin-top: 40px;
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 28px 32px;
+    }
+
+    .sources h3 {
+      font-size: 15px;
+      font-weight: 600;
+      margin-bottom: 16px;
+    }
+
+    .sources-list {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .source-item {
+      display: flex;
+      gap: 10px;
+      font-size: 13px;
+      color: var(--muted);
+      line-height: 1.6;
+    }
+
+    .source-item a {
+      color: var(--cyan);
+      text-decoration: none;
+    }
+
+    .source-item a:hover { opacity: 0.8; }
+
+    /* Works Grid */
+    .works-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 12px;
+      margin-top: 32px;
+    }
+
+    .work-item {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 16px 20px;
+      font-size: 14px;
+    }
+
+    .work-item .year {
+      color: var(--blue);
+      font-weight: 600;
+      font-size: 12px;
+    }
+
+    .work-item .title {
+      color: var(--ink);
+      font-weight: 500;
+    }
+
+    /* Footer */
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 24px 28px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      flex-wrap: wrap;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    footer .brand {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 13px;
+      color: var(--muted);
+    }
+
+    footer .brand canvas {
+      width: 20px;
+      height: 20px;
+      display: block;
+    }
+
+    footer .footer-links {
+      display: flex;
+      gap: 16px;
+      list-style: none;
+    }
+
+    footer .footer-links a {
+      color: var(--muted);
+      text-decoration: none;
+      font-size: 12px;
+      transition: color 0.2s;
+    }
+
+    footer .footer-links a:hover { color: var(--ink); }
+
+    /* Responsive */
+    @media (max-width: 640px) {
+      nav .nav-links { display: none; }
+      .hero { padding: 60px 20px 40px; }
+      .section { padding: 40px 20px; }
+      .step { flex-direction: column; gap: 10px; }
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="/" class="brand">
+      <canvas id="brand-canvas"></canvas>
+      Jevons
+    </a>
+    <ul class="nav-links">
+      <li><a href="#works">Works</a></li>
+      <li><a href="#legacy">Legacy</a></li>
+      <li><a href="#faq">FAQ</a></li>
+    </ul>
+  </nav>
+
+  <section class="hero">
+    <div class="logo-area">
+      <canvas id="hero-canvas"></canvas>
+    </div>
+    <div class="creator-tag">
+      <span class="tag-badge">1835–1882</span>
+      <span>English economist, logician &amp; inventor</span>
+    </div>
+    <h1>William <span>Stanley</span> Jevons</h1>
+    <p>
+      The economist who made economics mathematical. Pioneer of marginal utility theory,
+      the Jevons paradox, and the first mechanical logic computer — the Logic Piano.
+      His work reshaped economic thought and the philosophy of science.
+    </p>
+    <div class="hero-actions">
+      <a href="https://mirofish.my/" class="btn btn-primary">
+        Explore the legacy →
+      </a>
+      <a href="#works" class="btn btn-secondary">
+        Key works
+      </a>
+    </div>
+  </section>
+
+  <!-- Overview -->
+  <section class="section" id="overview">
+    <span class="section-label">Overview</span>
+    <h2>The mathematician who defined modern economics</h2>
+    <p class="subtitle">
+      William Stanley Jevons FRS (1 September 1835 – 13 August 1882) was an English economist and logician.
+      Irving Fisher described Jevons's book <em>The Theory of Political Economy</em> (1871) as the start of
+      the mathematical method in economics. Along with Carl Menger and Léon Walras, Jevons marked the opening
+      of a new period in the history of economic thought — the marginal revolution.
+    </p>
+
+    <div class="feature-grid">
+      <div class="feature-card">
+        <span class="icon">📈</span>
+        <h3>Marginal Utility Theory</h3>
+        <p>Jevons independently developed the marginal utility theory of value, establishing that the utility of an additional unit of a product decreases as more units are owned. This became the foundation of neoclassical economics.</p>
+      </div>
+      <div class="feature-card">
+        <span class="icon">⚡</span>
+        <h3>Jevons Paradox</h3>
+        <p>In <em>The Coal Question</em> (1865), Jevons demonstrated that improvements in energy efficiency lead to increased, not decreased, energy consumption — a paradox still central to ecological economics today.</p>
+      </div>
+      <div class="feature-card">
+        <span class="icon">🎹</span>
+        <h3>The Logic Piano</h3>
+        <p>A mechanical computer of his own invention, the Logic Piano could perform logical inference automatically. It was exhibited before the Royal Society in 1870, decades before electronic computers.</p>
+      </div>
+      <div class="feature-card">
+        <span class="icon">☀️</span>
+        <h3>Sunspot Theory</h3>
+        <p>Jevons pioneered the statistical study of business cycles, proposing that economic crises correlated with sunspot activity affecting crop yields — an early example of quantitative economic analysis.</p>
+      </div>
+      <div class="feature-card">
+        <span class="icon">🔢</span>
+        <h3>Jevons's Number</h3>
+        <p>8,616,460,799 — Jevons challenged readers to factor this number in his <em>Principles of Science</em>. It became famous as an early example of the difficulty of integer factorization, later foundational to cryptography.</p>
+      </div>
+      <div class="feature-card">
+        <span class="icon">📐</span>
+        <h3>Principles of Science</h3>
+        <p>His 1874 treatise on logic and scientific method remains one of the most notable contributions to logical doctrine of the 19th century, blending probability, induction, and the philosophy of science.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Works -->
+  <section class="section" id="works">
+    <span class="section-label">Major works</span>
+    <h2>Seminal publications in economics &amp; logic</h2>
+    <p class="subtitle">
+      Jevons was a prolific writer whose works span economic theory, statistics, logic, and philosophy.
+      His most important contributions reshaped both economics and the philosophy of science.
+    </p>
+
+    <div class="works-grid">
+      <div class="work-item">
+        <div class="year">1863</div>
+        <div class="title"><em>A Serious Fall in the Value of Gold</em></div>
+      </div>
+      <div class="work-item">
+        <div class="year">1864</div>
+        <div class="title"><em>Pure Logic</em></div>
+      </div>
+      <div class="work-item">
+        <div class="year">1865</div>
+        <div class="title"><em>The Coal Question</em></div>
+      </div>
+      <div class="work-item">
+        <div class="year">1870</div>
+        <div class="title"><em>Elementary Lessons in Logic</em></div>
+      </div>
+      <div class="work-item">
+        <div class="year">1871</div>
+        <div class="title"><em>The Theory of Political Economy</em></div>
+      </div>
+      <div class="work-item">
+        <div class="year">1874</div>
+        <div class="title"><em>Principles of Science</em></div>
+      </div>
+      <div class="work-item">
+        <div class="year">1875</div>
+        <div class="title"><em>Money and the Mechanism of Exchange</em></div>
+      </div>
+      <div class="work-item">
+        <div class="year">1878</div>
+        <div class="title"><em>A Primer on Political Economy</em></div>
+      </div>
+      <div class="work-item">
+        <div class="year">1882</div>
+        <div class="title"><em>The State in Relation to Labour</em></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- How the marginal revolution works -->
+  <section class="section" id="revolution">
+    <span class="section-label">The marginal revolution</span>
+    <h2>How Jevons changed economic thinking</h2>
+    <p class="subtitle">
+      Jevons's core insight — that value depends entirely on utility — overturned classical economics.
+      <em>The Theory of Political Economy</em> made the case that economics, as a science concerned
+      with quantities, is necessarily mathematical.
+    </p>
+
+    <div class="steps">
+      <div class="step">
+        <div class="step-number">01</div>
+        <div class="step-content">
+          <h3>Define utility mathematically</h3>
+          <p>Jevons formalised the degree of utility as a continuous mathematical function of the quantity of a commodity available. This enabled calculus-based economic analysis for the first time.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-number">02</div>
+        <div class="step-content">
+          <h3>Identify the final degree of utility</h3>
+          <p>The utility of the last unit consumed — the marginal utility — determines value. This insight resolved the classical diamond-water paradox and established the theory of subjective value.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-number">03</div>
+        <div class="step-content">
+          <h3>Link utility to exchange</h3>
+          <p>Jevons showed that in a free market, goods exchange at ratios equal to the inverse of the marginal utilities of the trading parties — a cornerstone of neoclassical exchange theory.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-number">04</div>
+        <div class="step-content">
+          <h3>Extend to labour and capital</h3>
+          <p>Labour is the painful exertion that produces goods with utility. Jevons integrated labour theory with marginal utility, showing that the value of labour derives from the utility of what it produces.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Deep dive -->
+  <section class="section" id="legacy">
+    <span class="section-label">Why it matters</span>
+    <h2>The Jevons paradox is more relevant than ever</h2>
+    <p class="subtitle">
+      In an era of energy transitions and efficiency gains, Jevons's insight that efficiency increases
+      consumption — not decreases it — challenges naive assumptions about sustainability.
+    </p>
+
+    <div class="deep-dive">
+      <h3>What is the Jevons paradox and why does it matter today?</h3>
+      <p>
+        In <em>The Coal Question</em> (1865), Jevons observed that improvements in steam engine efficiency,
+        rather than reducing coal consumption, led to its dramatic increase. Cheaper energy made coal-powered
+        technology economically viable in more applications, driving overall demand upward. This counterintuitive
+        insight — now called the Jevons paradox or the rebound effect — is a central concept in ecological economics.
+      </p>
+      <p style="margin-top: 12px;">
+        Today, the paradox is invoked in debates about energy efficiency policy, electric vehicles, and
+        sustainable development. It serves as a caution that technological efficiency alone cannot solve
+        resource depletion problems — structural changes in consumption are also necessary.
+      </p>
+      <a href="https://mirofish.my/" class="read-more">Read the full explainer →</a>
+    </div>
+
+    <div class="deep-dive" style="margin-top: 20px;">
+      <h3>The Logic Piano: the first mechanical computer for logic</h3>
+      <p>
+        In 1869, Jevons built a "logical machine" that could perform syllogistic inference mechanically.
+        The device, which he called the Logic Piano because of its resemblance to an upright piano, used
+        keys and levers to manipulate logical propositions and derive conclusions. It was exhibited before
+        the Royal Society in 1870 and is now housed in the Sydney Powerhouse Museum.
+      </p>
+      <p style="margin-top: 12px;">
+        The Logic Piano anticipates modern computing by demonstrating that logical operations can be
+        mechanised. Jevons understood that the principle of the substitution of similars — "whatever is
+        true of a thing is true of its like" — could be implemented as a physical process.
+      </p>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section" id="faq">
+    <span class="section-label">FAQ</span>
+    <h2>Quick answers about William Stanley Jevons</h2>
+    <p class="subtitle">
+      The fastest answers to the most common questions about Jevons's life, work, and ideas.
+    </p>
+
+    <div class="faq-list">
+      <div class="faq-item">
+        <h3>Who was William Stanley Jevons?</h3>
+        <p>William Stanley Jevons (1835–1882) was an English economist and logician, best known for pioneering marginal utility theory, identifying the Jevons paradox, and inventing the Logic Piano — an early mechanical computer.</p>
+      </div>
+      <div class="faq-item">
+        <h3>What is the Jevons paradox?</h3>
+        <p>The Jevons paradox states that as technological improvements increase the efficiency with which a resource is used, total consumption of that resource tends to increase rather than decrease. Jevons first described this in <em>The Coal Question</em> (1865).</p>
+      </div>
+      <div class="faq-item">
+        <h3>What is marginal utility theory?</h3>
+        <p>Marginal utility theory, independently developed by Jevons, Carl Menger, and Léon Walras, holds that the value of a good is determined by the utility of its last unit consumed (the marginal unit), not by its total utility or cost of production.</p>
+      </div>
+      <div class="faq-item">
+        <h3>What was the Logic Piano?</h3>
+        <p>The Logic Piano was a mechanical computer built by Jevons in 1869 that could perform logical inference automatically. It used keys and levers to manipulate propositions and derive conclusions, anticipating modern computational logic.</p>
+      </div>
+      <div class="faq-item">
+        <h3>What is Jevons's number?</h3>
+        <p>8,616,460,799 — the product of 89,681 and 96,079. Jevons challenged readers to factor it in <em>Principles of Science</em> (1874), making it an early famous example of integer factorization, later relevant to cryptography.</p>
+      </div>
+      <div class="faq-item">
+        <h3>What are Jevons's most important works?</h3>
+        <p>His key works include <em>The Theory of Political Economy</em> (1871), <em>The Coal Question</em> (1865), <em>Principles of Science</em> (1874), <em>Money and the Mechanism of Exchange</em> (1875), and <em>Pure Logic</em> (1864).</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Primary sources / References -->
+  <section class="section" id="sources">
+    <span class="section-label">Primary sources</span>
+    <h2>Verified references and further reading</h2>
+    <p class="subtitle">
+      Every claim on this page is grounded in Jevons's own writings, peer-reviewed scholarship,
+      and authoritative reference works.
+    </p>
+
+    <div class="sources">
+      <h3>References</h3>
+      <div class="sources-list">
+        <div class="source-item">
+          <span>•</span>
+          <span>Black, R.D. Collison (1972). "Jevons, Bentham and De Morgan", <em>Economica</em>.</span>
+        </div>
+        <div class="source-item">
+          <span>•</span>
+          <span>Fisher, Irving (1892). <em>Mathematical Investigations in the Theory of Value and Prices</em>.</span>
+        </div>
+        <div class="source-item">
+          <span>•</span>
+          <span>Jevons, W. Stanley (1871). <em>The Theory of Political Economy</em>. Macmillan &amp; Co.</span>
+        </div>
+        <div class="source-item">
+          <span>•</span>
+          <span>Jevons, W. Stanley (1874). <em>The Principles of Science</em>. Macmillan &amp; Co.</span>
+        </div>
+        <div class="source-item">
+          <span>•</span>
+          <span>Keynes, J.N. (1911). "Jevons, William Stanley". <em>Encyclopædia Britannica</em>, 11th ed.</span>
+        </div>
+        <div class="source-item">
+          <span>•</span>
+          <span>Georgescu-Roegen, N. (1971). <em>The Entropy Law and the Economic Process</em>. Harvard University Press.</span>
+        </div>
+        <div class="source-item">
+          <span>•</span>
+          <span>Popper, K.R. — Jevons's theory of induction received a powerful formulation in Popper's work on the philosophy of science.</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="sources" style="margin-top: 16px;">
+      <h3>Primary works online</h3>
+      <div class="sources-list">
+        <div class="source-item">
+          <span>•</span>
+          <span><a href="https://mirofish.my/">The Theory of Political Economy</a> — Full text</span>
+        </div>
+        <div class="source-item">
+          <span>•</span>
+          <span><a href="https://mirofish.my/">The Coal Question</a> — Full text</span>
+        </div>
+        <div class="source-item">
+          <span>•</span>
+          <span><a href="https://mirofish.my/">Principles of Science</a> — Full text</span>
+        </div>
+        <div class="source-item">
+          <span>•</span>
+          <span><a href="https://mirofish.my/">Money and the Mechanism of Exchange</a> — Full text</span>
+        </div>
+        <div class="source-item">
+          <span>•</span>
+          <span><a href="https://mirofish.my/">Wikipedia: William Stanley Jevons</a> — Comprehensive biography</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="brand">
+      <canvas id="brand-canvas-footer"></canvas>
+      William Stanley Jevons · 1835–1882
+    </div>
+    <ul class="footer-links">
+      <li><a href="https://en.wikipedia.org/wiki/William_Stanley_Jevons">Wikipedia</a></li>
+      <li><a href="https://mirofish.my/">Biography</a></li>
+      <li><a href="https://mirofish.my/">Works</a></li>
+    </ul>
+  </footer>
+
+  <script src="canvas-design.js"></script>
+</body>
+</html>
